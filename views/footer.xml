@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_footer" name="Custom Footer" inherit_id="website.layout">
+
+        <xpath expr="//footer" position="replace">
+            <footer>
+                <h1 class="footer-text-test">I am Footer</h1>
+            </footer>
+        </xpath>
+    </template>
+</odoo>
